@@ -1,7 +1,7 @@
 #Entrada de dados
 valor_total = float(input("Insira o valor da compra para calcularmos possíveis opções de descontos🤑: "))
 
-#Cálcuos
+#Condições
 if valor_total <200:
     print("Para essa compra é aplicável o cupom de 5% OFF💸.")
     d = valor_total * 0.05
